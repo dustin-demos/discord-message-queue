@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@whaaaley/material-icons-scss": "^2.0.6",
-    "superfine": "^8.0.10"
+    "superfine": "8.0.10"
   },
   "devDependencies": {
     "@whaaaley/parcel-source-map-cli": "^0.5.0",

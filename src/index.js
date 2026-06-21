@@ -10,8 +10,8 @@ const Inline = () => [
 ]
 
 const Reference = () => [
-  link({ rel: 'stylesheet', href: '/main.css' }),
-  script({ defer: true, src: '/app.js' })
+  link({ rel: 'stylesheet', href: '/discord-queue/main.css' }),
+  script({ defer: true, src: '/discord-queue/app.js' })
 ]
 
 const render = data => {
@@ -22,8 +22,8 @@ const render = data => {
     meta({ name: 'description', content: data.description }),
     meta({ name: 'theme-color', content: '#202225' }),
     meta({ id: 'viewport', name: 'viewport', content: 'width=device-width' }),
-    link({ rel: 'icon', type: 'image/png', href: '/favicon.png' }),
-    link({ rel: 'manifest', href: '/manifest.webmanifest' }),
+    link({ rel: 'icon', type: 'image/png', href: '/discord-queue/favicon.png' }),
+    link({ rel: 'manifest', href: '/discord-queue/manifest.webmanifest' }),
     body([
       div({ id: 'app' }),
       noscript('Please enable JavaScript and try again.'),
