@@ -12,8 +12,9 @@ import router from './stores/router'
 import Home from './views/home'
 
 // App routes
+// Served under /discord-queue/ in the demos container, so the route carries that prefix.
 const pages = {
-  '/': Home
+  '/discord-queue/': Home
 }
 
 const getRouteObject = state => {
